@@ -1,0 +1,33 @@
+/*# sourceMappingURL=bootstrap.css.map */
+
+.app {
+  background-color: rgb(245, 244, 244);
+  margin: 1rem;
+  padding: 1rem;
+}
+
+.rinnakkain {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.rinnakkain > * {
+  flex-grow: 1;
+  flex-basis: 0;
+  margin-right: 10px;
+}
+
+.rinnakkain > *:last-child {
+  margin-right: 0;
+}
+
+@media (max-width: 400px) {
+
+  .rinnakkain {
+    flex-direction: column;
+  }
+
+}
+
+
